@@ -1,0 +1,61 @@
+# ============================================================
+# Home SOC - Public Repository Safety
+# ============================================================
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Live Docker Compose configuration may contain credentials
+docker-compose.yml
+docker-compose.yaml
+
+# Wazuh Dashboard live API credentials
+config/wazuh_dashboard/wazuh.yml
+
+# Authentication / user databases
+config/wazuh_indexer/internal_users.yml
+**/client.keys
+
+# Private keys, certificates and keystores
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.jks
+
+# Generated Wazuh certificates
+config/wazuh_indexer_ssl_certs/
+config/wazuh_dashboard/certs/
+config/wazuh_manager/certs/
+
+# Backup and recovery artifacts
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.ndjson
+
+# Local checkpoint copies
+*.before-*
+*.upstream-backup-*
+*.backup
+*.bak
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Logs and runtime data
+*.log
+logs/
+data/
+
+# Editor metadata
+.vscode/
+.idea/

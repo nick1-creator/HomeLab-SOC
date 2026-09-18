@@ -1,0 +1,16 @@
+605c1f0359e0cd828b3a6cb5c7cc1af9fbfb02ba8106f06dc5e31ca03f605437  ./docs/DETECTIONS.md
+1ed1ffdaf6970d097952d91b7f6c75982b253d16a43b8fada2e0a5cac46c67f8  ./docs/FINAL-QA.md
+4b1657898d3d56a4e9ad743f618114f4f03acf8ebd8def8f6a7f08fb95d368b1  ./docs/INCIDENTS.md
+bccf0a36661550da51151a40eea87d3c689572daa28d4b81c99b5db4675c99cc  ./docs/RECOVERY.md
+ceb9e8f98d13f274c8bee10ab051bacaf81169af87ed15bfb184545a4897b56e  ./docs/STABILITY.md
+339cc99b2acc094212664e4198780443d1c0a9aeede3e3ec64ffb0d5c064ac49  ./evidence/06-backup-recovery.txt
+1761ae983e030e9510571668f245df27efaa4779bcedb2134cfa0544e4691bd4  ./.gitignore
+d7c9037815fe0b6d11e34066a96759f8dbdefdbd78cd1d97b0081395846a15bf  ./PORTFOLIO-MANIFEST.md
+0f9d91c933b0b77afd5797a536b9f360c008c2516c7695a93e69fbc380a58510  ./README.md
+8910fc81921f9a2bd6d9357d53d36240bf93f569f077685922b896c2128416e1  ./rules/local_rules.xml
+aba96654bca944f0fdca4c56da8c221a75601f393df32a22eb39744baf4c12d3  ./screenshots/01-agents.png
+ea0173197bbfb4a29ad1c58ef70583779c37fb9abb934cbd183b1329d3711ae7  ./screenshots/02-custom-dashboard.png
+9ced4c1db014cdadca328b1db9262bfaa74fbffa293add1dcdf5220e46cb5021  ./screenshots/03-rule-100150-powershell-task.png
+fb6d2e35de4162842f3bcde240f0f013484eba7c7b9204b5e6d05ccf939582fd  ./screenshots/04-rule-100160-suspicious-service.png
+6ae76533cdbd6c853870692d98c74972dc827e035823639edeba8e8b0bd3ab22  ./screenshots/05-threat-hunting.png
+8a6504ebb023867e4fbece978b437f4c9d057a9f52d9d6e19433b791c2beabca  ./SCREENSHOTS.md

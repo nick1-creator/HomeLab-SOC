@@ -1,0 +1,25 @@
+WAZUH BACKUP / RECOVERY PROOF
+Date: 2026-09-02
+
+Automatic HomeLab backup result:
+- ExecStart=/usr/local/sbin/homelab-backup
+- status=0/SUCCESS
+- Backup LUKS closed = VERIFIED
+- Backup vault closed = VERIFIED = OK
+- Wazuh local alert retention: 90 days
+- Eligible archive files: 0
+- Cleanup skipped = weekly Sunday only
+- BACKUP SUCCESS
+
+Latest automatic Wazuh Manager archive:
+- /srv/homelab/backups/wazuh/wazuh-manager-state-20260902-033025.tar.gz
+- Size: 14M
+- gzip integrity: OK
+
+Restic snapshot created during the same automatic run:
+- Snapshot: 593b8dd1
+
+Validation summary:
+- Automated Wazuh Manager V2 backup completed successfully.
+- Encrypted backup vault closed successfully.
+- Archive integrity validation passed.
